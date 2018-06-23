@@ -4,7 +4,7 @@
 - Cube
 - 上钻（Roll-up）
 - 下钻（Drill-down）
-- 旋转（Pivot）
+- 旋转（Rotate/Pivot）
 - 切片（Slice）
 - 切块（Dice）
 
@@ -21,6 +21,8 @@
 
 ## 地理维度
 
-- 省份
-- 城市
+- 国家: Country
+- 省份: State
+- County
+- 城市: City
 
