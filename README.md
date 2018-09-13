@@ -8,18 +8,23 @@
 - 切片（Slice）
 - 切块（Dice）
 
-## 维度
+# 维度
 
-## 时间维度
+## 日期维度
 
-- id
-- date # 日期
-- week # 周 
-- month: varchar(2) # 月份
-- quarter # 季度
-- year: varchar(4) # 年份
+| 字段 | 字段类型 | 样例 |
+| --- | --- | --- |
+| date_id | int(8) | 20180913 |
+| date | date | 2018-09-13 |
+| calendar_week | | | 
+| month | | 09 |
+| year_month | | 2018-09 |
+| calendar_quarter | | Q3 |
+| year | YEAR | 2018 |
 
-## 地理维度
+## 层级维度
+
+### 地理维度
 
 - 国家: Country
 - 省份: State
